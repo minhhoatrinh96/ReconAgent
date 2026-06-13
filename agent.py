@@ -336,9 +336,15 @@ async def get_pending(partner: str):
     })
 
 
+@app.get("/health")
+async def health():
+    """AgentBase Runtime health check — must return HTTP 200."""
+    return JSONResponse({"status": "ok"})
+
+
 @app.get("/api/status")
 async def status():
-    """Health check endpoint."""
+    """Detailed status endpoint."""
     return JSONResponse({
         "status": "ok",
         "agent": "ReconAgent",
