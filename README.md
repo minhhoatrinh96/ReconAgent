@@ -5,7 +5,7 @@
 
 ## Bài Toán Giải Quyết
 
-Nhóm Finance Operations tại ZaloPay mất **1–1,5 giờ/ngày** để đối soát thủ công dữ liệu giao dịch với các đối tác thanh toán quốc tế (Apple, Alipay, Tenpay). Quá trình này gồm:
+Nhóm Operations tại Zalopay mất **1–1,5 giờ/ngày** để đối soát thủ công dữ liệu giao dịch với các đối tác thanh toán quốc tế (Apple, Alipay, Tenpay). Quá trình này gồm:
 
 - Tải file từ SFTP → merge thủ công → VLOOKUP → lọc giao dịch hủy → phân loại lệch ca
 - Rủi ro sai sót cao do thao tác Excel thủ công
