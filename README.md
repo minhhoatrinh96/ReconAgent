@@ -31,7 +31,7 @@ Nhóm Finance Operations tại ZaloPay mất **1–1,5 giờ/ngày** để đố
 | Đối tác | File Identifier | Cut-off (GMT+7) | File Type |
 |---------|----------------|-----------------|-----------|
 | Apple | `ZaloPay_AMP` | N/A (file-based) | DAILY_SPLIT |
-| Alipay | `A111275800000002` | 23:00:00 | CONSOLIDATED |
+| Alipay | `A11127580000000` | 23:00:00 | CONSOLIDATED |
 | Tenpay | `tgp` | 22:50:00 + 1 min buffer | CONSOLIDATED |
 
 ## Cách Sử Dụng
